@@ -16,7 +16,7 @@ function SoNT(m){
     }
     return lstNT;
 }
-fs.writeFile("data.txt",SoNT(500000).toString(),(err,data)=>{
+fs.writeFile("data.txt",SoNT(1000).toString(),(err,data)=>{
     if(err){console.log("loi ghi file")}
 })
 // console.log(SoNT(100))
