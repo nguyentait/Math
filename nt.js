@@ -19,4 +19,4 @@ function SoNT(m){
 fs.writeFile("data.txt",SoNT(1000).toString(),(err,data)=>{
     if(err){console.log("loi ghi file")}
 })
-// console.log(SoNT(100))
+ console.log(SoNT(10000))
